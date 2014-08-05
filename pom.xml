@@ -79,10 +79,10 @@
 		</dependency>
 
 
-		<dependency>
+		 <dependency>
 			<groupId>Pubnub</groupId>
 			<artifactId>StandardEdition</artifactId>
-			<version>3.2.6</version>
+			<version>3.6.2</version>
 		</dependency>
 
 

@@ -39,7 +39,7 @@ public class GetData {
 						.entity("Operation time out [5 sec], successCallback doesn't invoke!!").build());
 			}
 		});
-		asyncResponse.setTimeout(5, TimeUnit.SECONDS);
+		asyncResponse.setTimeout(15, TimeUnit.SECONDS);
 
 		Pubnub pubnub = new Pubnub("pub-69159aa7-3bcf-4d09-ae25-3269f14acb6a",
 				"sub-4d81bf51-1eb6-11e1-82b2-3d61f7276a67");
