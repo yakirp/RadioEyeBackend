@@ -56,8 +56,10 @@ public class GetData {
 				// to PubNub
 				@Override
 				public void connectCallback(String channel, Object message) {
-					System.out.println("Object Initialized : " + message);
+					response.append(myData.toString());
+				 
 
+					asyncResponse.resume(response.toString());
 					try {
 
 						System.err.println(myData.toString());
